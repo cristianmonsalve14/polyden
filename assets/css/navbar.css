@@ -1,0 +1,90 @@
+
+/* nav styles */
+
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav__link a:hover {
+    background-color: #ffffff;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  }
+
+  .logo{
+      width: 50%;
+      padding: 0.5rem;
+  }
+
+
+ .h-section{
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #000000;
+    padding: 0.25rem 3.125rem;
+  }
+  
+  .hero-section {
+    text-align: right;
+    background-image: url('../img/tuberias_hdpe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #000000;
+    padding: 13.25rem 3.125rem;
+  
+  }
+  
+
+  /* seccion experiencia y diseño*/
+  .exp_dis{
+    padding: 4rem;
+  }
+
+  .carrusel{
+    padding: 2rem;
+    background-color: #222222;
+  }
+
+  
+
+  

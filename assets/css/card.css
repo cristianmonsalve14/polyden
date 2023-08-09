@@ -1,0 +1,56 @@
+  /*card*/
+  .conten {
+    position: static;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .conten .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  .conten .card:hover {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
+  }
+
+  .texh2{
+    color: #7190b9;
+    text-align: center;
+    text-shadow: 0.125em 0.25em 0.125em #000000;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+  }
+
+  .tarjetas{
+      background-color: #212529;
+      padding: 0em;
+  }
+
+  .card-body{
+    background-color: #7190b9;
+  }
+
+  
